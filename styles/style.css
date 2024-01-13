@@ -26,6 +26,10 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+a{
+    text-decoration: none;
+    color: #333;
+}
 .color-primary{
     color: #094476;
 }
@@ -50,11 +54,63 @@ body{
     background-image: url(../imgaes/banner.jpg);
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-direction: column;
     padding:5vh 10vh;
 }
 .banner img{
     width: 550px;
     height: 200px;
 }
+.banner .cssbuttons-io-button {
+    background: #1963a4;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-right: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 2em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 -0.6em 1.6em 0 #0B4577;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-left: 3.3em;
+    cursor: pointer;
+}
+
+.banner .cssbuttons-io-button .icon {
+    background: white;
+    margin-right: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 2em;
+    box-shadow: 0.1em 0.2em 0.6em 0.1em #0B4577;
+    left: 0.3em;
+    transition: all 0.3s;
+}
+
+.banner .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+}
+
+.banner .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #0B4577;
+}
+
+.banner .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+}
+
+.banner .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+}
+
