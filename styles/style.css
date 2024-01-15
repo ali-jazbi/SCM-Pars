@@ -7,7 +7,24 @@
     #094476
     #939393
 */
-
+/* change scroll style */
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background: #e4e4e4;
+}
+::-webkit-scrollbar-thumb {
+    background: #11538deb;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #094476;
+}
+/* add new font */
+@font-face {
+    font-family: 'vazir';
+    src: url('../font/vazir.ttf');
+}
 /* Global Css */
 body{
     height: 3000px;
@@ -42,11 +59,6 @@ a{
 .fs-3-rem{
     font-size: 3rem;
 }
-/* add new font */
-@font-face {
-    font-family: 'vazir';
-    src: url('../font/vazir.ttf');
-}
 /* Custom Class */
 .banner{
     width: 100%;
@@ -80,7 +92,6 @@ a{
     padding-left: 3.3em;
     cursor: pointer;
 }
-
 .banner .cssbuttons-io-button .icon {
     background: white;
     margin-right: 1em;
@@ -95,21 +106,17 @@ a{
     left: 0.3em;
     transition: all 0.3s;
 }
-
 .banner .cssbuttons-io-button:hover .icon {
     width: calc(100% - 0.6em);
 }
-
 .banner .cssbuttons-io-button .icon svg {
     width: 1.1em;
     transition: transform 0.3s;
     color: #0B4577;
 }
-
 .banner .cssbuttons-io-button:hover .icon svg {
     transform: translateX(0.1em);
 }
-
 .banner .cssbuttons-io-button:active .icon {
     transform: scale(0.95);
 }
