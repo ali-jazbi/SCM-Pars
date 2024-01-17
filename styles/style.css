@@ -372,6 +372,62 @@ section{
 /* Intellectual Property END */
 
 /* Copyright start */
-
-/* Copyright END */
+#copyright{
+    direction: rtl;
+    overflow-x: hidden;
+}
+#copyright .big-box{
+    width: 80%;
+    height: 100vh;
+    position: relative;
+    border-top-left-radius: 10%;
+    background: linear-gradient(270deg, #0b3e6bd5, #0d416eea, #083358);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    -o-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+#copyright .big-box .box-row{
+    width: 120%;
+    height: 12%;
+    margin-top: 80px;
+    position: absolute;
+    background-color: #939393;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+#copyright .big-box img{
+    position: absolute;
+    width: 50%;
+    top: 35%;
+    left: 30%;
+    filter: grayscale(90%);
+    opacity: .7;
+}
+#copyright .big-box .circle-logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 35%;
+    left: -10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-color: #939393 !important;
+}
+#copyright .big-box .circle-logo:nth-child(2){
+    top: 65%;
+}
+#copyright p{
+    margin-top: 31%;
+    font-size: 30px;
+}
+#copyright p:nth-child(2){
+    margin-top: 19%;
+}
 
