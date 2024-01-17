@@ -467,19 +467,28 @@ section{
 /* Copyright END */
 
 /* Patent Start */
-#patent{
+#patent , #patent-2{
     display: flex;
     justify-content: center;
     position: relative;
 }
-#patent .col-lg-4 i{
+#patent i , #patent-2 i {
     font-size: 40px;
 }
-#patent .patent-footer{
+#patent .patent-footer , #patent-2 .patent-footer{
     overflow: hidden;
     position: absolute;
     width: 100%;
     bottom: -1px;
+}
+#patent-2 .patent-header{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    top: -1px;
+}
+#patent-2 .container{
+    margin-top: 200px;
 }
 /* Patent END */
 
