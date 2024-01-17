@@ -424,10 +424,10 @@ section{
     top: 65%;
 }
 #copyright p{
-    margin-top: 31%;
+    margin-top: 39vh;
     font-size: 30px;
 }
 #copyright p:nth-child(2){
-    margin-top: 19%;
+    margin-top: 24vh;
 }
 
