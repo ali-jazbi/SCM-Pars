@@ -466,13 +466,13 @@ section{
 }
 /* Copyright END */
 
-/* Patent Start */
-#patent , #patent-2{
+/* Patent and international-conventions Start */
+#patent , #patent-2 , #international-conventions{
     display: flex;
     justify-content: center;
     position: relative;
 }
-#patent i , #patent-2 i {
+#patent i , #patent-2 i , #international-conventions i{
     font-size: 40px;
 }
 #patent .patent-footer , #patent-2 .patent-footer{
@@ -481,7 +481,7 @@ section{
     width: 100%;
     bottom: -1px;
 }
-#patent-2 .patent-header{
+#patent-2 .patent-header , #international-conventions .conventions-header{
     overflow: hidden;
     position: absolute;
     width: 100%;
@@ -490,5 +490,5 @@ section{
 #patent-2 .container{
     margin-top: 200px;
 }
-/* Patent END */
+/* Patent and international-conventions END */
 
