@@ -405,12 +405,12 @@ section{
 }
 /* Intellectual Property END */
 
-/* Copyright start */
-#copyright{
+/* Copyright and Practical Recommendations start */
+#copyright , #practical-recommendations{
     direction: rtl;
     overflow-x: hidden;
 }
-#copyright .big-box{
+#copyright .big-box , #practical-recommendations .big-box{
     width: 80%;
     height: 100vh;
     position: relative;
@@ -422,7 +422,7 @@ section{
     -o-animation: AnimationName 10s ease infinite;
     animation: AnimationName 10s ease infinite;
 }
-#copyright .big-box .box-row{
+#copyright .big-box .box-row , #practical-recommendations .big-box .box-row{
     width: 120%;
     height: 12%;
     margin-top: 80px;
@@ -434,7 +434,7 @@ section{
     color: white;
     font-size: 30px;
 }
-#copyright .big-box img{
+#copyright .big-box img , #practical-recommendations .big-box img{
     position: absolute;
     width: 50%;
     top: 35%;
@@ -442,7 +442,7 @@ section{
     filter: grayscale(90%);
     opacity: .7;
 }
-#copyright .big-box .circle-logo{
+#copyright .big-box .circle-logo , #practical-recommendations .big-box .circle-logo{
     width: 100px;
     height: 100px;
     position: absolute;
@@ -454,17 +454,38 @@ section{
     font-size: 50px;
     border-color: #939393 !important;
 }
-#copyright .big-box .circle-logo:nth-child(2){
+#copyright .big-box .circle-logo:nth-child(2) , #practical-recommendations .big-box .circle-logo:nth-child(2){
     top: 65%;
 }
-#copyright p{
+#copyright p , #practical-recommendations p{
     margin-top: 39vh;
     font-size: 30px;
 }
 #copyright p:nth-child(2){
     margin-top: 24vh;
 }
-/* Copyright END */
+#practical-recommendations p:nth-child(4){
+    margin-top: 24vh !important;
+}
+#practical-recommendations hr{
+    width: 40%;
+    position: absolute;
+    left: 0;
+    top: 57%;
+}
+#practical-recommendations .practical-feature{
+    position: absolute;
+    top: 35%;
+    right: 65%;
+    width: 30%;
+}
+#practical-recommendations .practical-feature:nth-child(2){
+    top: 65%;
+}
+#practical-recommendations .practical-feature h4{
+    margin-bottom: 20px;
+}
+/* Copyright and Practical Recommendations END */
 
 /* Patent and international-conventions Start */
 #patent , #patent-2 , #international-conventions{
