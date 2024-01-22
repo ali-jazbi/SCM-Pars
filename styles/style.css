@@ -216,7 +216,7 @@ section{
 }
 /* banner END */
 
-/* content-table start */
+/* content-table and import-regulations start */
 #content-table{
     width: 100%;
     height: 100vh;
@@ -278,7 +278,7 @@ section{
     border-top: 2px solid #09437688;
     height: 7px;
 }
-#content-table .content-links{
+#content-table .content-links , #import-regulations .content-links{
     width: 100%;
     height: 65%;
     display: flex;
@@ -287,7 +287,7 @@ section{
     justify-content: space-evenly;
     list-style: none;
 }
-#content-table .content-links .content-a {
+#content-table .content-links .content-a , #import-regulations .content-links .content-a{
     width: 400px;
     height: 70px;
     background-color: transparent;
@@ -310,7 +310,10 @@ section{
     font-size: 16px;
     border-radius: 10px;
 }
-#content-table .content-links .content-a::before {
+#import-regulations .content-links .content-a{
+    background-color: #083358;
+}
+#content-table .content-links .content-a::before , #import-regulations .content-links .content-a::before{
     content: " ";
     width: 1.5625rem;
     height: 2px;
@@ -322,7 +325,7 @@ section{
     transform-origin: center;
     transition: background 0.3s linear, width 0.3s linear;
 }
-#content-table .content-links .content-a .text {
+#content-table .content-links .content-a .text , #import-regulations .content-links .content-a .text{
     font-size: 1.125em;
     line-height: 1.33333em;
     padding-right: 2em;
@@ -333,7 +336,7 @@ section{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.925);
 }
-#content-table .content-links .content-a .top-key {
+#content-table .content-links .content-a .top-key , #import-regulations .content-links .content-a .top-key{
     height: 2px;
     width: 1.5625rem;
     top: -2px;
@@ -342,7 +345,7 @@ section{
     background: #094476;
     transition: width 0.5s ease-out, right 0.3s ease-out;
 }
-#content-table .content-links .content-a .bottom-key-1 {
+#content-table .content-links .content-a .bottom-key-1 , #import-regulations .content-links .content-a .bottom-key-1{
     height: 2px;
     width: 1.5625rem;
     left: 1.875rem;
@@ -351,39 +354,39 @@ section{
     background: #094476;
     transition: width 0.5s ease-out, left 0.3s ease-out;
 }
-#content-table .content-links .content-a .bottom-key-2 {
+#content-table .content-links .content-a .bottom-key-2 , #import-regulations .content-links .content-a .bottom-key-2{
     height: 2px;
     width: 0.625rem;
     left: 0.625rem;
     bottom: -2px;
     position: absolute;
-    background: #094476;
+    background: #eaebec;
     transition: width 0.5s ease-out, left 0.3s ease-out;
 }
-#content-table .content-links .content-a:hover {
+#content-table .content-links .content-a:hover , #import-regulations .content-links .content-a:hover{
     color: white;
     background: #094476;
     border-radius: 0;
     border-color: #fff;
 }
-#content-table .content-links .content-a:hover::before {
+#content-table .content-links .content-a:hover::before , #import-regulations .content-links .content-a:hover::before{
     width: 0.9375rem;
     background: #094476;
 }
-#content-table .content-links .content-a:hover .text {
+#content-table .content-links .content-a:hover .text , #import-regulations .content-links .content-a:hover .text{
     color: white;
     padding-right: 1.5em;
 }
-#content-table .content-links .content-a:hover .top-key {
+#content-table .content-links .content-a:hover .top-key , #import-regulations .content-links .content-a:hover .top-key{
     right: -2px;
     width: 0px;
 }
 #content-table .content-links .content-a:hover .bottom-key-1,
-#content-table .content-links .content-a:hover .bottom-key-2 {
+#content-table .content-links .content-a:hover .bottom-key-2 , #import-regulations .content-links .content-a:hover .bottom-key-1, #import-regulations .content-links .content-a:hover .bottom-key-2{
     left: 0;
     width: 0;
 }
-/* content-table END */
+/* content-table and import-regulations END */
 
 /* Intellectual Property Start */
 #intellectual-property img{
@@ -409,6 +412,7 @@ section{
 #copyright , #practical-recommendations{
     direction: rtl;
     overflow-x: hidden;
+    position: relative;
 }
 #copyright .big-box , #practical-recommendations .big-box{
     width: 80%;
