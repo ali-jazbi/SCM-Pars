@@ -526,4 +526,17 @@ section{
 }
 /* importation-goods end */
 
+/* collaborative iran and russia Start */
+.collaborative p:nth-child(1){
+    margin-top: 38vh !important;
+}
+.collaborative p:nth-child(2){
+    margin-top: 13vh !important;
+}
+.collaborative .circle-logo:nth-child(2){
+    margin-top: 8vh !important;
+}
+/* collaborative iran and russia END */
+
+
 
