@@ -240,6 +240,14 @@ section{
     display: flex;
     justify-content: center;
 }
+.bg-curved{
+    background: linear-gradient(270deg, #0b3e6bd5, #0d416eea, #083358);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    -o-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 51%}
     50%{background-position:100% 50%}
@@ -537,6 +545,7 @@ section{
     margin-top: 8vh !important;
 }
 /* collaborative iran and russia END */
+
 
 
 
