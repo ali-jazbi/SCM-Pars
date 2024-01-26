@@ -611,6 +611,22 @@ section{
 }
 /* violation-obligation END */
 
+/* different-liability Start */
+#different-liability .liability-footer{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+#different-liability .liability-header{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+/* different-liability END */
+
+
 
 
 
