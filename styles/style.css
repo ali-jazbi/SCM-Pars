@@ -600,10 +600,10 @@ section{
     color: #fff;
 }
 #violation-obligation p:nth-child(3){
-    top: 49%;
+    top: 49vh;
 }
 #violation-obligation p:nth-child(4){
-    top: 72.7%;
+    top: 72.7vh;
 }
 /* violation-obligation END */
 
