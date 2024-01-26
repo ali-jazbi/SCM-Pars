@@ -552,6 +552,25 @@ section{
     background-position: center;
 }
 
+/* Contractual rules Start */
+.contractual-rules .circle-logo:nth-child(2){
+    margin-top: 10vh !important;
+}
+.contractual-rules .circle-logo:nth-child(3){
+    margin-top: 20vh !important;
+}
+.contractual-rules h4{
+    margin-top: 40vh;
+    font-size: 30px;
+}
+.contractual-rules h4:nth-child(2){
+    margin-top: 11vh !important;
+}
+.contractual-rules h4:nth-child(3){
+    margin-top: 11vh !important;
+}
+/* Contractual rules END */
+
 
 
 
