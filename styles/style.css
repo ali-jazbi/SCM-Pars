@@ -612,6 +612,9 @@ section{
 /* violation-obligation END */
 
 /* different-liability Start */
+#different-liability{
+    position: relative;
+}
 #different-liability .liability-footer{
     overflow: hidden;
     position: absolute;
