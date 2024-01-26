@@ -546,11 +546,19 @@ section{
 }
 /* collaborative iran and russia END */
 
-#contractual-law-subjects{
+/* #contractual-law-subjects , #bank-guarantees Start */
+#contractual-law-subjects , #bank-guarantees{
     background-image: url(../imgaes/Contractual\ banner.png);
     background-size: cover;
     background-position: center;
 }
+#bank-guarantees .bank-guarantees-header{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    top: -1px;
+}
+/* #contractual-law-subjects , #bank-guarantees END */
 
 /* Contractual rules Start */
 .contractual-rules .circle-logo:nth-child(2){
